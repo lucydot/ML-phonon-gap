@@ -9,7 +9,7 @@
 
 Copied from [SingingMaterialsSite](https://github.com/lucydot/SingingMaterialsSite) on 2026-11-24.
 
-- `data/raw/:
+- `data/raw/`:
   - `metadata`: `mp_id`, `formula`, `bin_width` (Hz) and `phonon_method` (always `dfpt`). 
   - `projection`: `frequencies` (Hz) and `densities` for `total` and for each atomic site (e.g. `Ba_1`)
 - `data/raw/phonon_materials.json`: the same 1,512 materials, cut down from the 26,609 in SingingMaterialsSite: ID, formula, space group, number of elements and sites, DFPT phonon calculation ID.
