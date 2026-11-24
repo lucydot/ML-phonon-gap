@@ -1,0 +1,8 @@
+.env
+# ~400 MB of raw phonon DOS; see README
+data/raw/dos/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+.vscode/

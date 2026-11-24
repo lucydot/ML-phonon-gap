@@ -1,0 +1,17 @@
+name: ml-phonon-gap
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - pytorch_geometric # graph networks, for later
+  - numpy
+  - pandas
+  - scikit-learn # splits and metrics
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pymatgen # structures and element data
+  - mp-api # downloading from the Materials Project
+  - python-dotenv
